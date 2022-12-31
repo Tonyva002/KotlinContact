@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/common_size_default"
+    tools:context=".Activities.DetailActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="@dimen/common_size_big"
+        android:layout_marginStart="@dimen/common_size_default"
+        android:layout_marginEnd="@dimen/common_size_default"
+        android:contentDescription="@string/user_image_message"
+        android:src="@drawable/foto_06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_default"
+        android:layout_marginStart="@dimen/common_size_default"
+        android:layout_marginEnd="@dimen/common_size_default"
+        android:text="@string/name_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPhoto"/>
+
+    <TextView
+        android:id="@+id/tvCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_default"
+        android:layout_marginStart="@dimen/common_size_small"
+        android:layout_marginEnd="@dimen/common_size_small"
+        android:text="@string/company_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_size_big2"
+        android:layout_marginTop="@dimen/common_size_big"
+        android:text="@string/age_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCompany" />
+
+    <TextView
+        android:id="@+id/tvAge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_small"
+        android:text="@string/age_message2"
+        app:layout_constraintStart_toStartOf="@+id/tvAge"
+        app:layout_constraintTop_toBottomOf="@+id/tvAge" />
+
+
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_big"
+        android:layout_marginEnd="@dimen/common_size_big2"
+        android:text="@string/phone_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCompany" />
+
+    <TextView
+        android:id="@+id/tvPhone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_small"
+        android:layout_marginEnd="@dimen/common_size_default"
+        android:text="@string/phone_message2"
+        app:layout_constraintStart_toStartOf="@+id/tvPhone"
+        app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
+
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_big"
+        android:text="@string/weight_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="@id/tvAge2"
+        app:layout_constraintTop_toBottomOf="@+id/tvAge2"/>
+
+    <TextView
+        android:id="@+id/tvWeight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_small"
+        android:text="@string/weight_message2"
+        app:layout_constraintStart_toStartOf="@+id/tvWeight"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_big"
+        android:text="@string/email_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="@+id/tvPhone2"
+        app:layout_constraintTop_toBottomOf="@+id/tvPhone2" />
+
+    <TextView
+        android:id="@+id/tvEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_small"
+        android:text="@string/email_message2"
+        app:layout_constraintStart_toStartOf="@+id/tvEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_big"
+        android:layout_marginEnd="@dimen/common_size_default"
+        android:text="@string/address_message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="@+id/tvWeight2"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight2" />
+
+    <TextView
+        android:id="@+id/tvAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_small"
+        android:layout_marginEnd="@dimen/common_size_default"
+        android:text="@string/address_message2"
+        app:layout_constraintStart_toStartOf="@+id/tvAddress"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

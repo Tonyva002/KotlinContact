@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="user_image_message">User image</string>
+    <string name="search_message">Search</string>
+    <string name="switch_message">Change view</string>
+    <string name="name_message">Name</string>
+    <string name="company_message">Company</string>
+    <string name="age_message">Age</string>
+    <string name="weight_message">Weight</string>
+    <string name="phone_message">Phone</string>
+    <string name="age_message2">34 Años</string>
+    <string name="weight_message2">56 kg</string>
+    <string name="phone_message2">562-777-5612</string>
+    <string name="email_message">Email</string>
+    <string name="address_message">Address</string>
+    <string name="email_message2">ana@hotmail.com</string>
+    <string name="address_message2">Gran via #45</string>
+    <string name="last_name_message">Last Name</string>
+    <string name="add_contact_message">Add Contact</string>
+    <string name="required_message">Required</string>
+    <string name="delete_contact_message">Delete contact</string>
+    <string name="edit_contact_message">Edit contact</string>
+    <string name="detail_message">Contact details</string>
+
+
+</resources>
