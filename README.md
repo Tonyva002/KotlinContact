@@ -2,7 +2,7 @@
 
 ## PROJECT DESCRIPTION
 
-This app allows you to view contact list, add new contact, view contact detail, edit contact and delete contact.
+This app allows you to view contact list, add new contact, view contact detail, edit contact, delete contact and search contact.
 
 ### Necessary tool:
 
