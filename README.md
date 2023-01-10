@@ -4,6 +4,15 @@
 
 This app allows you to view contact list, add new contact, view contact detail, edit contact, delete contact and search contact.
 
+### Links
+📌 Live site URL: [here](https://github.com/Tonyva002/KotlinContact)
+
+### Built with
+
+- Kotlin
+- Android
+- Glide
+
 ### Necessary tool:
 
 Install Android Studio
